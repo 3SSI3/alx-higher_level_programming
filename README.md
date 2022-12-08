@@ -1,1 +1,1 @@
-# Getting Started with **Python**.
+Getting started with Python
