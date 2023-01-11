@@ -6,4 +6,4 @@ def class_to_json(obj):
     """ returns the dictionary description with simple data structure """
     return obj.__dict__#!/usr/bin/python3
 """ returns the dictionary description with simple data structure """
-rerturn obj.__dict__
+return obj.__dict__
