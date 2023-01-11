@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Creates an empty class."""
+"""Create empty BaseGeometry class"""
+
 
 class BaseGeometry:
-    """Empty class."""
-
+    """An empty class"""
 
     def area(self):
         """Raise an exception with the specified message"""
