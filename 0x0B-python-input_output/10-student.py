@@ -20,4 +20,4 @@ class Student:
                 if attr in self.__dict__.keys():
                     dict[attr] = self.__dict__[attr]
             return dict
-        return self._dict_
+        return self.__dict__
