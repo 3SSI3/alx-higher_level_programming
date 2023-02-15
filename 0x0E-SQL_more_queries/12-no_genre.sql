@@ -1,7 +1,7 @@
 -- Lists all shows in the database hbtn_0d_tvshows without a genre linked.
 -- Records are ordered by ascending 
 
-ELECT s.`title`, g.`genre_id`
+SELECT s.`title`, g.`genre_id`
   FROM `tv_shows` AS s
        LEFT JOIN `tv_show_genres` AS g
        ON s.`id` = g.`show_id`
