@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Script fetches alx URL using the urllib package and with statement.
+""" Script fetches alx URL using the urllib package and with statement."""
 
 import urllib.request
 
