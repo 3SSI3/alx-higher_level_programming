@@ -10,7 +10,7 @@ from sys import argv
 if __name__ == "__main__":
     try:
         with request.urlopen(argv[1]) as response:
-                body = response.read()
-                print(body.decode('utf-8'))
+            body = response.read()
+            print(body.decode('utf-8'))
     except error.HTTPError as er:
         print('Error code: {}'.format(er.code))
