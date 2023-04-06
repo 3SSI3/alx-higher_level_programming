@@ -10,6 +10,4 @@ from sys import argv
 if __name__ == "__main__":
     try:
         req = requests.get(argv[1])
-        print(req.headers['X-Request-Id'])
-    except:
-        pass
+        print(req.headers.get("X-Request-Id"))
