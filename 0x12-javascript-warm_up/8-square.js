@@ -1,6 +1,6 @@
 #!/usr/bin/node
 // prints a square
-const args = process.argv.slic(2);
+const args = process.argv.slice(2);
 if (args.length === 0 || isNaN(args[0])) {
 // if 1st arg can't be converted to an int print "Missing size"
   console.log('Missing size');
