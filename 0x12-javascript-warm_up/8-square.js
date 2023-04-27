@@ -1,11 +1,12 @@
 #!/usr/bin/node
-if (process.argv[2] === undefined || isNaN(process.argv[2])) {
+// prints a square
+const args = process.argv.slic(2);
+if (args.length === 0 || isNaN(args[0])) {
+// if 1st arg can't be converted to an int print "Missing size"
   console.log('Missing size');
 } else {
   const x = Number(process.argv[2]);
-  const u = 0;
-  while (u < x) {
+  for (let a = 0; a < x; a++) {
     console.log('X'.repeat(x));
-    i++;
   }
 }
