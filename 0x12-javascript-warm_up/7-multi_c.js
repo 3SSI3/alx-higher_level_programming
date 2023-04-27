@@ -1,10 +1,11 @@
 #!/usr/bin/node
 
-const parsedVal = parseInt(process.argv[2]);
-if (isNaN(parsedVal)) {
-  console.log('Missing number of occurences');
-} else {
-  for (let a = 0; a < parsedVal; a++) {
+let times = parseInt(process.argv[2]);
+if (!isNaN(times)) {
+  while (times > 0) {
     console.log('C is fun');
+    times -= 1;
   }
+} else {
+  console.log('Missing number of occurrences');
 }
